@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logincss.css">
+        
+    <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dtbvgiown/image/upload/v1673927939/red-among-us-3218512-2691060_qiu0iy.webp">
+    
+    <title>Register</title>
+  
+    
+
+
+</head>
+<body>
+    <script src="myscripts.js"> 
+    </script>
+    
+       <div class="container">
+        <form name="loginform"id="form"  onsubmit =" return validateinputs()" action="index.html">
+            
+            <h1 class="font-register">Register</h1>
+           
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="enter username">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" placeholder="enter email id">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="enter password">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="cpass">Confirm Password</label>
+                <input type="password" id="cpass" name="cpass" placeholder="confirm password">
+                <div class="error"></div>
+            </div>
+            <button id="input"  type="submit"value="submit" class="btn" style="color: deeppink; height: 2em;width: 12.5em ;height: 1.5em; font-size: 2em;border-radius: 100px; " onclick ="validateinputs()" >SUBMIT</button>
+           <center> <a href="login2.html" style="text-decoration: none;color: deeppink;">already an user</a> </center>           
+
+       </div></body></html>
